@@ -19,7 +19,12 @@ h2 {
   font-weight: bold;
   font-size: 64px;
 }
-.container p {
+h3 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 18px;
+}
+.project-description p {
   font-family: var(--default-font-family);
   font-size: 16px;
   font-weight: normal;
@@ -83,4 +88,33 @@ h2 {
 .menu {
   margin-left: auto;
   margin-right: auto;
+}
+.selfie {
+  width: 350px;
+}
+.about {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #272142;
+  opacity: 70%;
+}
+.about-section {
+  margin-left: 230px;
+
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin-right: 94px;
+}
+@media (max-width: 900px) {
+  .about-section {
+    margin-left: auto;
+    text-align: center;
+    padding: 30px;
+  }
+  .about-section-content {
+    margin-right: auto;
+  }
 }
