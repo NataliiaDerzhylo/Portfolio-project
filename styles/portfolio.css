@@ -47,6 +47,7 @@ p {
   line-height: 30px;
   color: #272142;
   opacity: 70%;
+  text-align: left;
 }
 .hero p {
   font-family: var(--default-font-family);
