@@ -135,3 +135,9 @@ p {
     margin-right: auto;
   }
 }
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 0 15px;
+}
