@@ -194,3 +194,7 @@ footer .social-links a:hover {
 .nav-item {
   padding: 0 15px;
 }
+.GitHub-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
